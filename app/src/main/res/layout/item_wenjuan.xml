@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="问卷"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_marginRight="0dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:id="@+id/wenjuantitle"/>
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            fancy:fb_text="编辑"
+            android:id="@+id/edit"
+            >
+        </mehdi.sakout.fancybuttons.FancyButton>
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            fancy:fb_text="答题"
+            android:id="@+id/dati"
+            >
+
+        </mehdi.sakout.fancybuttons.FancyButton>
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            fancy:fb_text="删除"
+            android:id="@+id/shanchu"
+            >
+
+        </mehdi.sakout.fancybuttons.FancyButton>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

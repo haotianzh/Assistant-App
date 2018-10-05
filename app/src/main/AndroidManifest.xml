@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.haotian.wenjuan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:label="生物医学调查问卷定制"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddOptionsActivity"
+            android:label="添加问卷选项">
+        </activity>
+        <activity android:name=".CreateQuestionDetailActivity"
+            android:label="完善问题细节">
+        </activity>
+        <activity android:name=".DialogAnswerActivity"
+            android:theme="@style/Base.Theme.AppCompat.Dialog"/>
+        <activity android:name=".SetAsscoDialog"
+            android:theme="@style/Base.Theme.AppCompat.Dialog"/>
+        <activity android:name=".AsscoActivity" />
+        <activity android:name=".QuestionShowActivity"/>
+        <activity android:name=".FinalResultActivity"/>
+        <activity android:name=".MyWenjuanActivity"/>
+        <activity android:name=".DialogSaveActivity"
+            android:theme="@style/Base.Theme.AppCompat.Dialog"/>
+    </application>
+
+</manifest>
